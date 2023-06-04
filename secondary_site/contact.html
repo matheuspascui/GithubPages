@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../css/contact.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <ul>
+                <li>
+                    <a href="./my_site.html">Sobre Mim</a>
+                </li>
+                <li>
+                    <a href="./project.html">Projeto</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="center">
+            <div>
+                <img src="../src/profile_linkedin.jpeg">
+                <h1>Entre em Contato!</h1>
+            </div>
+        </header>
+
+        <form class="contac-form" action="mailto:matheuspascui@gmail.com" method="POST">
+            <div>
+                <label class="my_label" for="e-mail">E-mail</label>
+                <input class="my_label" type="email" name="email" required>
+            </div>
+            <div>
+                <label class="my_label" for="message">Mensagem</label>
+                <input class="my_label" type="text" id="message" name="message" required>
+            </div>
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_next" value="https://formsubmit.co/matheuspascui@gmail.com">
+            <input type="hidden" name="_subject" value="New Submission!">
+        </form>
+
+        <footer>
+            <a href="https://github.com/matheuspascui" target="_blank" rel="noopener noreferrer">
+                <img src="../src/github_image.jpg"></img>
+                <p>Github</p>
+            </a>
+            <a href="https://www.linkedin.com/in/matheus-ziantoni-pascui/" target="_blank" rel="noopener noreferrer">
+                <img src="../src/linkedin_logo.png"></img>
+                <p>Linkedin</p>
+            </a>
+        </footer>
+    </div>
+
+</body>
+</html>
